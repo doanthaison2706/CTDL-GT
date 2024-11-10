@@ -1,0 +1,11 @@
+Bus E01 28 26.95 12000 KĐT Ocean Park - Ngã Tư Sở - Bx Mỹ Đình
+Bus E02 28 27.70 12000 KĐT Ocean Park - Bờ Hồ - Hào Nam
+Bus E03 28 31.55 15000 KĐT Ocean Park - Thái Hà - Mỹ Đình(Hàm Nghi)
+Bus E04 28 25.30 12000 KĐT Smart City - Ngã Tư Sở - Vincom Long Biên
+Bus E05 28 20.70 10000 KĐT Smart City - Cầu Giấy - Long Biên 
+Bus E06 28 22.70 10000 KĐT Smart City - Bx Nước Ngầm - Bx Giáp Bát
+Bus E07 28 16.50 10000 KĐT Smart City - Cửa Nam - Long Biên
+Bus E08 28 18.55 10000 KĐT Times City - Kim Mã - Khu Liên cơ quan Sở ngành Hà Nội
+Bus E09 28 22.95 10000 KĐT Smart City - Long Biên - Khu Liên cơ quan Sở ngành Hà Nội
+Bus E10 28 40.50 20000 KĐT Ocean Park - Sân Bay Nội Bài
+Metro M02A 280 12.30 15000 Cát Linh - Hà Đông

@@ -1,0 +1,66 @@
+Vehicle Type: Metro
+Route Number: M02A
+Capacity: 280
+Distance: 12.3 km
+Ticket Price: 15000 VND
+Route Description: Cát Linh - Hà Đông
+Vehicle Type: Bus
+Route Number: E07
+Capacity: 28
+Distance: 16.5 km
+Ticket Price: 10000 VND
+Route Description: KĐT Smart City - Cửa Nam - Long Biên
+Vehicle Type: Bus
+Route Number: E08
+Capacity: 28
+Distance: 18.55 km
+Ticket Price: 10000 VND
+Route Description: KĐT Times City - Kim Mã - Khu Liên cơ quan Sở ngành Hà Nội
+Vehicle Type: Bus
+Route Number: E05
+Capacity: 28
+Distance: 20.7 km
+Ticket Price: 10000 VND
+Route Description: KĐT Smart City - Cầu Giấy - Long Biên 
+Vehicle Type: Bus
+Route Number: E06
+Capacity: 28
+Distance: 22.7 km
+Ticket Price: 10000 VND
+Route Description: KĐT Smart City - Bx Nước Ngầm - Bx Giáp Bát
+Vehicle Type: Bus
+Route Number: E09
+Capacity: 28
+Distance: 22.95 km
+Ticket Price: 10000 VND
+Route Description: KĐT Smart City - Long Biên - Khu Liên cơ quan Sở ngành Hà Nội
+Vehicle Type: Bus
+Route Number: E04
+Capacity: 28
+Distance: 25.3 km
+Ticket Price: 12000 VND
+Route Description: KĐT Smart City - Ngã Tư Sở - Vincom Long Biên
+Vehicle Type: Bus
+Route Number: E01
+Capacity: 28
+Distance: 26.95 km
+Ticket Price: 12000 VND
+Route Description: KĐT Ocean Park - Ngã Tư Sở - Bx Mỹ Đình
+Vehicle Type: Bus
+Route Number: E02
+Capacity: 28
+Distance: 27.7 km
+Ticket Price: 12000 VND
+Route Description: KĐT Ocean Park - Bờ Hồ - Hào Nam
+Vehicle Type: Bus
+Route Number: E03
+Capacity: 28
+Distance: 31.55 km
+Ticket Price: 15000 VND
+Route Description: KĐT Ocean Park - Thái Hà - Mỹ Đình(Hàm Nghi)
+Vehicle Type: Bus
+Route Number: E10
+Capacity: 28
+Distance: 40.5 km
+Ticket Price: 20000 VND
+Route Description: KĐT Ocean Park - Sân Bay Nội Bài
