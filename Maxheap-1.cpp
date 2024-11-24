@@ -1,20 +1,22 @@
 #include <iostream>
+#include <stdexcept>
 
 using namespace std;
 
+template <typename T>
 class MaxHeap {
 private:
-    int* heap;          
-    int capacity;        
-    int size;            
-    // Hàm để duy trì tính chất heap 
+    T* heap;          
+    int capacity;    
+    int size;         
+    // Hàm để duy trì tính chất heap (heapify từ dưới lên)
     void heapifyUp(int index) {
         while (index > 0 && heap[index] > heap[(index - 1) / 2]) {
             swap(heap[index], heap[(index - 1) / 2]);
             index = (index - 1) / 2;
         }
     }
-    // Hàm để duy trì tính chất heap 
+    // Hàm để duy trì tính chất heap (heapify từ trên xuống)
     void heapifyDown(int index) {
         int left = 2 * index + 1;
         int right = 2 * index + 2;
@@ -31,14 +33,14 @@ private:
         }
     }
 public:
-    // Hàm khởi tạo 
+    // Hàm khởi tạo
     MaxHeap(int cap) {
         capacity = cap;
-        heap = new int[capacity];
+        heap = new T[capacity];
         size = 0;
     }
     // Thêm phần tử vào heap
-    void push(int value) {
+    void push(T value) {
         if (size == capacity) {
             throw overflow_error("Heap is full");
         }
@@ -46,36 +48,36 @@ public:
         heapifyUp(size);
         size++;
     }
-    // loại bỏ phần tử
-    int pop() {
+    // Loại bỏ phần tử lớn nhất (gốc của heap)
+    T pop() {
         if (size == 0) {
             throw underflow_error("Heap is empty");
         }
-        int rootValue = heap[0];
+        T rootValue = heap[0];
         heap[0] = heap[size - 1];
         size--;
         heapifyDown(0);
         return rootValue;
     }
-    // Lấy phần tử trên cùng
-    int top() {
+    // Lấy phần tử lớn nhất (gốc của heap) mà không loại bỏ
+    T top() const {
         if (size == 0) {
             throw underflow_error("Heap is empty");
         }
         return heap[0];
     }
     // Kiểm tra cây heap có rỗng không
-    bool empty() {
+    bool empty() const {
         return size == 0;
     }
-    // In cây heap 
-    void print() {
+    // In cây heap
+    void print() const {
         for (int i = 0; i < size; i++) {
             cout << heap[i] << " ";
         }
         cout << endl;
     }
-    // Hàm hủy 
+    // Hàm hủy
     ~MaxHeap() {
         delete[] heap;
     }
@@ -85,7 +87,7 @@ int main() {
     int n;
     cout << "Nhập số lượng phần tử trong heap: ";
     cin >> n;
-    MaxHeap heap(n);
+    MaxHeap<int> heap(n);
     cout << "Nhập các phần tử của heap: ";
     for (int i = 0; i < n; i++) {
         int value;
@@ -96,8 +98,7 @@ int main() {
     heap.print();
     cout << "Dãy số giảm dần: ";
     while (!heap.empty()) {
-        cout << heap.pop() << " "; 
+        cout << heap.pop() << " ";
     }
-    cout << endl;
     return 0;
 }
